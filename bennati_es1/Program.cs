@@ -18,7 +18,7 @@ namespace bennati_es1
             Thread thread = new Thread(() => RicercaNumero(n1, numeri));
             thread.Start();
             Console.WriteLine("Inserisci un numero da cercare:");
-            int n2 = int.Parse(Console.ReadLine());
+            int n2 = int.Parse(Console.ReadLine());  
             RicercaNumero(n2, numeri); 
             Console.ReadLine(); 
         }
